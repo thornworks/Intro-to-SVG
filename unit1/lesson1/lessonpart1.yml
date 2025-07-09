@@ -50,6 +50,11 @@ content: >
   attribute sets the color of the rectangle.
 
 
+  * SVG is a kind of XML language. That means we have opening and closing tags
+  like HTML. The main **element** is **svg**. Inside that **element tag**, we
+  have a **rect** element.
+
+
   ### Try It Yourself
 
 
