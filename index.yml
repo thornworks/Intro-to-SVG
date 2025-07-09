@@ -3,10 +3,11 @@ id: course1
 title: Intro to SVG
 level: beginner
 description: Introduces students to SVG syntax with some examples
+prerequisites: Students should be familiar with HTML syntax.
 cardImageUrl: https://vscodeedu.com/assets/course-cards/card6.png
 contacts:
-  - displayName: Leon LaSpina
-    pictureUrl: https://avatars.githubusercontent.com/u/2083084?v=4
+  - displayName: Mr.  LaSpina
+    affiliation: Bethpage High Schol
     homePageUrl: https://github.com/thornworks
 units:
   - unit1/index.yml
