@@ -1,0 +1,62 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart1
+title: Page 1
+content: >
+  ## Introduction to SVG
+
+
+  Scalable Vector Graphics (SVG) is a language and file format for creating
+  two-dimensional vector graphics. SVG is widely used for web graphics because
+  it is scalable, meaning it can be resized without losing quality. In this
+  lesson, we'll start by creating a simple rectangle using SVG in an HTML page.
+
+
+  ### Example: Creating a Rectangle with SVG
+
+
+  Below is an example of a basic HTML page that includes an SVG rectangle. This
+  example will help you understand how SVG elements are embedded within HTML.
+
+
+  ```html
+
+  <!DOCTYPE html>
+
+  <html><head>
+      <title>SVG Rectangle Example</title>
+  </head>
+
+  <body>
+      <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+          <rect width="100" height="100" x="50" y="50" fill="blue" />
+      </svg>
+  </body>
+
+  </html>
+
+  ```
+
+
+  ### Explanation
+
+
+  * **SVG Element**: The `<svg>` tag defines the SVG container. The `width` and
+  `height` attributes set the size of the SVG canvas.
+
+
+  * **Rectangle Element**: The `<rect>` tag is used to draw a rectangle. The
+  `width` and `height` attributes specify the size of the rectangle. The `x` and
+  `y` attributes position the rectangle within the SVG canvas. The `fill`
+  attribute sets the color of the rectangle.
+
+
+  ### Try It Yourself
+
+
+  Copy the code above into an HTML file and open it in a web browser to see the
+  rectangle. Experiment by changing the rectangle's size, position, and color to
+  see how it affects the display.
+
+
+  In the next lesson, we'll explore more complex SVG shapes and attributes.
+  Happy coding!
