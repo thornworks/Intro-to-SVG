@@ -52,7 +52,9 @@ content: >
 
   * SVG is a kind of XML language. That means we have opening and closing tags
   like HTML. The main **element** is **svg**. Inside that **element tag**, we
-  have a **rect** element.
+  have a **rect** element. We can add more elements; each element will represent
+  a different shape or curve or line. We have a few **attributes** inside the
+  rect tag. The syntax for 
 
 
   ### Try It Yourself
